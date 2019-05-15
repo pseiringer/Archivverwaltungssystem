@@ -1,0 +1,76 @@
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\Archivverwaltungssystem.exe.config
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\Archivverwaltungssystem.exe
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\Archivverwaltungssystem.pdb
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\ArchiveDatabase.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\EntityFramework.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\EntityFramework.SqlServer.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\Xceed.Wpf.AvalonDock.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\Xceed.Wpf.Toolkit.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\ArchiveDatabase.pdb
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\ArchiveDatabase.dll.config
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\EntityFramework.xml
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\EntityFramework.SqlServer.xml
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem.csprojAssemblyReference.cache
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\MainWindow.g.cs
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\App.g.cs
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem_MarkupCompile.cache
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem_MarkupCompile.lref
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\MainWindow.baml
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem.g.resources
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem.Properties.Resources.resources
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem.csproj.GenerateResource.cache
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem.csproj.CoreCompileInputs.cache
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem.csproj.CopyComplete
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem.exe
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem.pdb
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\Archivverwaltungssystem.exe.config
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\Archivverwaltungssystem.exe
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\Archivverwaltungssystem.pdb
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\ArchiveDatabase.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\EntityFramework.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\EntityFramework.SqlServer.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\Xceed.Wpf.AvalonDock.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\Xceed.Wpf.Toolkit.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\ArchiveDatabase.pdb
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\ArchiveDatabase.dll.config
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\EntityFramework.xml
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\EntityFramework.SqlServer.xml
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem.csprojAssemblyReference.cache
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\MainWindow.g.cs
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\App.g.cs
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem_MarkupCompile.cache
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem_MarkupCompile.lref
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\MainWindow.baml
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem.g.resources
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem.Properties.Resources.resources
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem.csproj.GenerateResource.cache
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem.csproj.CoreCompileInputs.cache
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem.csproj.CopyComplete
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem.exe
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\Archivverwaltungssystem\Archivverwaltungssystem\obj\Release\Archivverwaltungssystem.pdb

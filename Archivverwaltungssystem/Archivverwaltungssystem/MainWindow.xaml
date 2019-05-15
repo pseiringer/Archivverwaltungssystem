@@ -1,0 +1,410 @@
+﻿<Window x:Class="Archivverwaltungssystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Archivverwaltungssystem"
+        xmlns:toolkit="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="Archivverwaltungssystem" Height="450" Width="800" Loaded="Window_Loaded">
+
+    <!-- Resources/Styles Contextmenu -->
+    <Window.Resources>
+        <Style x:Key="RoundedButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="#92F5FF" BorderThickness="1" Padding="2">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Height" Value="87"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Width" Value="128"/>
+        </Style>
+        <Style x:Key="ActiveRoundedButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="#93C0FF" BorderThickness="1" Padding="2">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Height" Value="87"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Width" Value="128"/>
+        </Style>
+        <Style TargetType="Label" x:Key="DefaultLabelStyle">
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+        <Style TargetType="Button" x:Key="DefaultButtonStyle">
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+        <Style TargetType="ComboBox" x:Key="DefaultComboBoxStyle">
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+        <Style TargetType="TextBox" x:Key="DefaultTextBoxStyle">
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+        <Style TargetType="ListBox" x:Key="DefaultListBoxStyle">
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+
+
+        <ContextMenu x:Key="SearchResultContextMenu">
+            <MenuItem Header="Bearbeiten" Click="SearchContextMenuEditClicked"/>
+            <MenuItem Header="Löschen" Click="SearchContextMenuDeleteClicked"/>
+            <Separator/>
+            <MenuItem Header="In Struktur anzeigen" Click="SearchContextMenuStructureClicked" />
+        </ContextMenu>
+
+        <ContextMenu x:Key="StructureContextMenu">
+            <MenuItem Name="StructureContextMenuEditBtn" Header="Bearbeiten" Click="StructureContextMenuEditClicked"/>
+            <MenuItem Header="Löschen" Click="StructureContextMenuDeleteClicked"/>
+        </ContextMenu>
+    </Window.Resources>
+
+    <Grid Background="#D2D0FF">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="81*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <!-- Main-Menu Buttons -->
+        <Grid Background="#4C6C99">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Button Name="btnSearchTab"  
+                    Style="{DynamicResource ActiveRoundedButtonStyle}" Content="Suchen" 
+                    Grid.Row="0" 
+                    Click="BtnSearchTabClick"/>
+            <Button Name="btnCreateTab" 
+                    Style="{DynamicResource RoundedButtonStyle}" Content="Anlegen" 
+                    Grid.Row="1" 
+                    Click="BtnCreateTabClick"/>
+            <Button Name="btnStructureTab"  
+                    Style="{DynamicResource RoundedButtonStyle}" Content="Struktur"
+                    Grid.Row="2" 
+                    Click="BtnStructureTabClick"/>
+        </Grid>
+
+
+        <!-- Dokument Bearbeiten -->
+        <Grid Name="EditDocument" Visibility="Collapsed" Grid.Column="1">
+            <Grid.Resources>
+                <Style TargetType="{x:Type Control}" x:Key="inputBaseStyle">
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="FontSize" Value="20"/>
+                    <Setter Property="Margin" Value="10,5"/>
+                </Style>
+                <Style TargetType="Label">
+                    <Setter Property="HorizontalAlignment" Value="Left"/>
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="FontSize" Value="20"/>
+                    <Setter Property="Padding" Value="10.7"/>
+                </Style>
+
+                <Style TargetType="ComboBox" BasedOn="{StaticResource inputBaseStyle}"/>
+                <Style TargetType="TextBox" BasedOn="{StaticResource inputBaseStyle}"/>
+                <Style TargetType="ListBox" BasedOn="{StaticResource inputBaseStyle}"/>
+                <Style TargetType="DatePicker" BasedOn="{StaticResource inputBaseStyle}"/>
+            </Grid.Resources>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="15*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="35*"/>
+                <ColumnDefinition Width="32.5*"/>
+                <ColumnDefinition Width="32.5*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Content="Dokumentname: " Grid.Row="0" Grid.Column="0"/>
+            <TextBox Name="EditDocumentName"  TextWrapping="Wrap" Text="Beispieltext"
+                     Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"
+                     Height="37"/>
+            <Label Content="Unterkategorie von:" Grid.Row="1" Grid.Column="0"/>
+            <Label Content="Notizen:"
+                   Grid.Row="3" Grid.Column="0"
+                   VerticalAlignment="Top"/>
+            <ComboBox Name="EditDocumentCategory" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"
+                      Height="37">
+            </ComboBox>
+            <Label Content="Datum: " Grid.Row="2" Grid.Column="0"/>
+            <DatePicker Name="EditDocumentDate" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"
+                        Height="37"/>
+            <Button Content="Speichern" Grid.Row="4" Grid.Column="1"
+                    Margin="10.5" FontSize="20"
+                    Click="BtnEditDocumentSaveClicked" />
+            <Button Content="Abbrechen" Grid.Row="4" Grid.Column="2"
+                    Margin="10.5" FontSize="20"
+                    Click="BtnEditDocumentCancelClicked" />
+            <TextBox Name="EditDocumentNotes"  TextWrapping="wrap" 
+                     Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Height="150"/>
+
+        </Grid>
+
+
+        <!-- Kategorie Bearbeiten -->
+        <Grid Name="EditCategory" Visibility="Collapsed" Grid.Column="1">
+            <Grid.Resources>
+                <Style TargetType="{x:Type Control}" x:Key="inputBaseStyle">
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="FontSize" Value="20"/>
+                    <Setter Property="Margin" Value="10,5"/>
+                </Style>
+                <Style TargetType="Label">
+                    <Setter Property="HorizontalAlignment" Value="Left"/>
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="FontSize" Value="20"/>
+                </Style>
+
+                <Style TargetType="ComboBox" BasedOn="{StaticResource inputBaseStyle}"/>
+                <Style TargetType="TextBox" BasedOn="{StaticResource inputBaseStyle}"/>
+                <Style TargetType="ListBox" BasedOn="{StaticResource inputBaseStyle}"/>
+            </Grid.Resources>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="15*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="35*"/>
+                <ColumnDefinition Width="32.5*"/>
+                <ColumnDefinition Width="32.5*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Content="Kategoriename: " Grid.Row="0" Grid.Column="0" Padding="10.7"/>
+            <TextBox Name="EditCategoryName" TextWrapping="Wrap" Text="Beispieltext" Grid.Row="0"
+                     Grid.Column="1" Grid.ColumnSpan="2" 
+                     Height="37"/>
+
+            <Label Content="Unterkategorie von:" Grid.Row="1" Grid.Column="0"
+                   Padding="10.7"/>
+            <ComboBox Name="EditCategoryCategory" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Height="37">
+            </ComboBox>
+
+            <Button Content="Speichern" 
+                    Margin="10.5"
+                    Grid.Row="2" Grid.Column="1"
+                    Height="37"
+                    FontSize="20"
+                    Click="BtnEditCategorySaveClicked" />
+            <Button Content="Abbrechen" 
+                    Margin="10.5"
+                    Grid.Row="2" Grid.Column="2"
+                    Height="37" 
+                    FontSize="20"
+                    Click="BtnEditCategoryCancelClicked"/>
+        </Grid>
+
+
+        <!-- Structure -->
+        <TreeView Name="Structure" Grid.Column="1" Background="#d2d0ff" Visibility="Collapsed">
+            <TreeView.Resources>
+                <Style x:Key="{x:Type TreeViewItem}" TargetType="{x:Type TreeViewItem}">
+                    <Setter Property="Focusable" Value="False" />
+                    <Setter Property="FontSize" Value="20"/>
+                </Style>
+                <Style x:Key="TreeViewItemBackground" TargetType="{x:Type TreeViewItem}" >
+                    <Setter Property="Background" Value="Yellow" />
+                </Style>
+                <Style x:Key="TreeViewItemBackgroundSelected" TargetType="{x:Type TreeViewItem}" >
+                    <Setter Property="Background" Value="Red" />
+                </Style>
+            </TreeView.Resources>
+
+            
+        </TreeView>
+
+
+
+
+
+        <!-- Create -->
+
+        <TabControl Name="Create" Grid.Column="1" Visibility="Collapsed">
+            <TabItem Header="Dokumente" FontSize="20">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45"/>
+                        <RowDefinition Height="45"/>
+                        <RowDefinition Height="45"/>
+                        <RowDefinition Height="45"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="60"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Dokumentenname: "
+                               Grid.Row="0"
+                               Padding="10,7"/>
+                    <Label Content="Notizen:"
+                               Grid.Row="3"
+                               Padding="10,7"/>
+                    <Label Content="Kategorie:"
+                               Grid.Row="1"
+                               Padding="10,7"/>
+                    <Label Content="Datum:" 
+                               Grid.Row="2"
+                               Padding="10,7"/>
+
+                    <TextBox Name="CreateDocumentNotes" 
+                                 TextWrapping="wrap" AcceptsReturn="true" 
+                                 Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="3" Grid.RowSpan="2"/>
+                    <TextBox Name="CreateDocumentName" TextWrapping="wrap" Height="37"
+                                 Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"/>
+                    <ComboBox Name="CreateDocumentCategory" 
+                              Height="37" FontSize="20"
+                                  Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2">
+                    </ComboBox>
+                    <DatePicker Name="CreateDocumentDate"
+                                    Grid.Column="1" Grid.Row="2" Height="37" Grid.ColumnSpan="2"/>
+
+                    <Button Content="Speichern" 
+                                VerticalAlignment="Center" Margin="10.5"
+                                Grid.Column="1" Grid.Row="5" 
+                                Height="37"
+                                Click="BtnCreateDocumentSaveClicked" />
+                    <Button Content="Abbrechen" 
+                                VerticalAlignment="Center" Margin="10.5"
+                                Grid.Column="2" Grid.Row="5"
+                                Height="37"
+                                Click="BtnCreateDocumentCancelClicked" />
+                </Grid>
+
+            </TabItem>
+            <TabItem Header="Kategorien" FontSize="20">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="220"/>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Kategorie: "
+                               VerticalAlignment="Center"
+                               Grid.Row="0" Grid.Column="0"
+                               Padding="10,7"/>
+                    <Label Content="Unterkategorie von:"
+                               VerticalAlignment="Center"
+                               Grid.Column="0" Grid.Row="1"
+                               Padding="10,7"/>
+
+                    <TextBox Name="CreateCategoryName" TextWrapping="wrap" 
+                                 Height="37" Margin="10.5"
+                                 Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"/>
+                    <ComboBox Name="CreateCategoryCategory"
+                                  VerticalAlignment="Center"
+                                  SelectedIndex="0" 
+                                  Height="37" FontSize="20" Margin="10.5"
+                                  Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2">
+                    </ComboBox>
+
+                    <Button Content="Speichern" 
+                                VerticalAlignment="Center" Margin="10.5"
+                                Grid.Row="2" Grid.Column="1"
+                                Click="BtnCreateCategorySaveClicked" />
+                    <Button Content="Abbrechen" 
+                                VerticalAlignment="Center" Margin="10.5"
+                                Grid.Row="2" Grid.Column="2"
+                                Click="BtnCreateCategoryCancelClicked"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+
+
+
+        <!-- Search -->
+        <Grid Name="Search" Grid.Column="1" Visibility="Visible">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60*"/>
+                <RowDefinition Height="60*"/>
+                <RowDefinition Height="60*"/>
+                <RowDefinition Height="210*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="110*"/>
+                <ColumnDefinition Width="193*"/>
+                <ColumnDefinition Width="110*"/>
+                <ColumnDefinition Width="193*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Content="Kategorie: " 
+                       VerticalAlignment="Center" 
+                       FontSize="20" 
+                       Grid.Column="0" Grid.Row="0" Height="37" Margin="0,19,3.4,19.2"/>
+            <ComboBox x:Name="SearchCategory" SelectedIndex="0" 
+                      FontSize="20" 
+                      Height="37"
+                      Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0" />
+
+
+
+            <Label Content="Datum: Von:" 
+                       VerticalAlignment="Center" 
+                       FontSize="20" 
+                       Grid.Row="1" Grid.Column="0" 
+                       Height="35" />
+            <DatePicker x:Name="SearchDateFrom"
+                        VerticalAlignment="Center" 
+                        Grid.Row="1" Grid.Column="1"
+                        FontSize="20" Height="35" />
+            <Label Content="Bis: " 
+                       VerticalAlignment="Center" HorizontalAlignment="Right"
+                       FontSize="20" 
+                       Grid.Column="2" Grid.Row="1" 
+                       Height="35" />
+            <DatePicker Name="SearchDateTo" 
+                        FontSize="20" 
+                        VerticalAlignment="Center" 
+                         Grid.Column="3" Grid.Row="1" Height="35"/>
+
+            <Label Content="Suche: " 
+                   VerticalAlignment="Center" 
+                   FontSize="20"
+                   Grid.Column="0" Grid.Row="2"/>
+            <TextBox Name="SearchText" 
+                     VerticalAlignment="Center" 
+                     FontSize="20" Height="37" 
+                     Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2"/>
+            <Button Content="Durchsuchen" 
+                    Click="BtnSearchClicked" 
+                    VerticalAlignment="Center" HorizontalAlignment="Center" 
+                    FontSize="20" Height="37" Width="150"
+                    Grid.Column="3" Grid.Row="2" />
+
+            <ListBox Name="SearchResults" 
+                     ContextMenu="{StaticResource SearchResultContextMenu}"
+                     Grid.Column="0" Grid.ColumnSpan="4" Grid.Row="3"
+                     Margin="10,0,10,10"
+                     MouseDoubleClick="SearchResultsMouseDoubleClick"/>
+        </Grid>
+
+    </Grid>
+
+
+</Window>

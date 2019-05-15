@@ -1,0 +1,48 @@
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\ArchiveDatabase\ArchiveDatabase\bin\Debug\ArchiveDatabase.dll.config
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\ArchiveDatabase\ArchiveDatabase\bin\Debug\ArchiveDatabase.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\ArchiveDatabase\ArchiveDatabase\bin\Debug\ArchiveDatabase.pdb
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\ArchiveDatabase\ArchiveDatabase\bin\Debug\EntityFramework.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\ArchiveDatabase\ArchiveDatabase\bin\Debug\EntityFramework.SqlServer.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\ArchiveDatabase\ArchiveDatabase\bin\Debug\EntityFramework.xml
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\ArchiveDatabase\ArchiveDatabase\bin\Debug\EntityFramework.SqlServer.xml
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.csprojAssemblyReference.cache
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.csproj.CoreCompileInputs.cache
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.csproj.CopyComplete
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.pdb
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\New\ArchiveDatabase\ArchiveDatabase\bin\Debug\ArchiveDatabase.dll.config
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\New\ArchiveDatabase\ArchiveDatabase\bin\Debug\ArchiveDatabase.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\New\ArchiveDatabase\ArchiveDatabase\bin\Debug\ArchiveDatabase.pdb
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\New\ArchiveDatabase\ArchiveDatabase\bin\Debug\EntityFramework.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\New\ArchiveDatabase\ArchiveDatabase\bin\Debug\EntityFramework.SqlServer.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\New\ArchiveDatabase\ArchiveDatabase\bin\Debug\EntityFramework.xml
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\New\ArchiveDatabase\ArchiveDatabase\bin\Debug\EntityFramework.SqlServer.xml
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\New\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.csprojAssemblyReference.cache
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\New\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.csproj.CoreCompileInputs.cache
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\New\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.csproj.CopyComplete
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\New\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Datenbankerstellung\New\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.pdb
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\ArchiveDatabase\ArchiveDatabase\bin\Debug\ArchiveDatabase.dll.config
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\ArchiveDatabase\ArchiveDatabase\bin\Debug\ArchiveDatabase.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\ArchiveDatabase\ArchiveDatabase\bin\Debug\ArchiveDatabase.pdb
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\ArchiveDatabase\ArchiveDatabase\bin\Debug\EntityFramework.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\ArchiveDatabase\ArchiveDatabase\bin\Debug\EntityFramework.SqlServer.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\ArchiveDatabase\ArchiveDatabase\bin\Debug\EntityFramework.xml
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\ArchiveDatabase\ArchiveDatabase\bin\Debug\EntityFramework.SqlServer.xml
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.csprojAssemblyReference.cache
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.csproj.CoreCompileInputs.cache
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.csproj.CopyComplete
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.dll
+D:\Files\Programmieren\SYP\Archivverwaltungssystem\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.pdb
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\ArchiveDatabase\ArchiveDatabase\bin\Debug\ArchiveDatabase.dll.config
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\ArchiveDatabase\ArchiveDatabase\bin\Debug\ArchiveDatabase.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\ArchiveDatabase\ArchiveDatabase\bin\Debug\ArchiveDatabase.pdb
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\ArchiveDatabase\ArchiveDatabase\bin\Debug\EntityFramework.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\ArchiveDatabase\ArchiveDatabase\bin\Debug\EntityFramework.SqlServer.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\ArchiveDatabase\ArchiveDatabase\bin\Debug\EntityFramework.xml
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\ArchiveDatabase\ArchiveDatabase\bin\Debug\EntityFramework.SqlServer.xml
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.csprojAssemblyReference.cache
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.csproj.CoreCompileInputs.cache
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.csproj.CopyComplete
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.dll
+D:\Files\Schule\SYP\Archivverwaltung Grieskirchen\Archivverwaltungssystem_V1.0\ArchiveDatabase\ArchiveDatabase\obj\Debug\ArchiveDatabase.pdb
